@@ -14,4 +14,24 @@
 img {
   width: 100px;
   height: 100px;
+  border: 2px solid rgba(208, 233, 232, 0.492);
+  border-radius: 20%;
+  margin-bottom: 16px;
+}
+/* チュートリアルデフォルト設定 */
+body {
+  text-align: center;
+  padding: 16px;
+  background-image: url("../img/bgImg.png");
+  /*background-size: cover;*/
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+/* フッターのコピーライト */
+footer {
+  font-size: 14px;
+  color: gray;
 }
