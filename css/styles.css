@@ -1,0 +1,17 @@
+/* ===== リセットCSS =====
+   全要素のデフォルトスタイルをリセットする
+   ・margin/paddingをゼロに統一（ブラウザによるデフォルトのズレをなくす）
+   ・box-sizing: border-boxで width = 実際の幅 になるようにする
+   ・marginだけは個別に指定が必要（border-boxに含まれないため）
+================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ここから下に各スタイルを書いていく */
+img {
+  width: 100px;
+  height: 100px;
+}
